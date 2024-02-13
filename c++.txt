@@ -1,0 +1,16 @@
+g++ -shared -o CircleCalculator.dll -I"C:\Program Files\Java\jdk-21\include" -I"C:\Program Files\Java\jdk-21\include\win32" -m64 MyCircleCalculator.cpp
+javac CircleCalculator.java NativeCalculationException.java
+java CircleCalculator
+
+// jsp servlet structure
+
+yourWebAppName            (Your web application's root directory)
+|-- WEB-INF
+|   |-- classes           (Directory for compiled Java classes)
+|   |   |-- HelloServlet.class
+|   |-- lib               (Directory for libraries, not necessary in this example)
+|   |-- web.xml           (Web deployment descriptor)
+|-- hello.jsp             (JSP file)
+g++ -shared -o EventLogReader.dll -I"C:\Program Files\Java\jdk-21\include" -I"C:\Program Files\Java\jdk-21\include\win32" -I"C:\Program Files\PostgreSQL\16\include" -L"C:\Program Files\PostgreSQL\16\lib" -m64 EventLogReader.c -lpq
+
+"C:\Program Files\Java\jdk-21\include;C:\Program Files\Java\jdk-21\include\win32;C:\Program Files\PostgreSQL\16\include;C:\Program Files\PostgreSQL\16\lib"
